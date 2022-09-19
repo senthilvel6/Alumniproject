@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Alumni.css">
+    <head>
+        
+    </head>
+
+    <body>
+        <section class="header">
+            <div class="reg" >
+                <h1 >Details</h1>  
+                <form action="reg.php" method="post" id="form">
+                    <p>Name</p>
+                    <input type="text" id="name" name="Student"><br>
+                    <p>Email id</p>
+                    <input type="text" name="Email"><br>
+                    <p>Department</p>
+                    <select id="dept" name="Dept">
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="EEE">EEE</option>
+                        <option value="AI">AI</option>
+                        <option value="CSBS">CSBS</option>
+                    </select><br>
+                    <p>Passed out year</p>
+                    <input type="text" name="Year"><br>            
+                    <p>CGP</p>
+                    <input type="text" id="cgp" name="cgp"><br>
+                    <p>Occupation</p>
+                    <input type="text" name="job" id="job"><br>
+                    <p>Message</p>
+                    <textarea name="msg" id="msg" cols="30" rows="5"></textarea><br>
+        
+                    <button >Submit</button>
+                </form>
+            </div>
+
+        </section>
+    </body>
+
+</html>

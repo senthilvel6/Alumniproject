@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)),url(KRCE.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width: 100px;
+}
+.h1{
+    flex: 1;
+    text-align: right;
+}
+.h1  ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.h1 ul li a{
+    color: aliceblue;
+    text-decoration: dashed;
+    font-size: 13px;
+    font: 1em sans-serif;
+    content: '';
+}
+
+.h1  ul li::after{
+    width: 0%;
+    height: 2px;
+    background: #f33443;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    content: '';
+    
+    
+}
+.h1 ul li:hover::after{
+    width: 100%;
+}
+.d1{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.d1 h1{
+    font: 1em sans-serif;
+    font-size: 62px;
+}
+.d1 p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+    font: 1em sans-serif;
+}
+.reg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    width: 300px;
+    font: sans-serif;
+    color: #fff;
+}
+.reg form p{
+    font: sans-serif;
+    margin: 5px 0;
+    
+
+}
+.reg form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.reg p{
+    font-size: 20px;
+}
+.reg button{
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+}
